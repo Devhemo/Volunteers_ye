@@ -1,0 +1,50 @@
+name: Volunteers.ye
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  cached_network_image: ^3.3.0
+  flutter_svg: ^2.0.9
+  intl: ^0.18.0
+  pin_code_fields: ^8.0.1
+  rive: ^0.13.1
+  google_maps_flutter: ^2.5.3
+  scaffold_gradient_background: ^1.0.3+1
+  
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+    - assets/Icons/
+  fonts: 
+    - family: Inter
+      fonts: 
+        - asset: assets/fonts/InterBold.ttf
+          weight: 700
+        - asset: assets/fonts/InterRegular.ttf
+          weight: 400
+        - asset: assets/fonts/InterSemiBold.ttf
+          weight: 600
+    - family: Roboto
+      fonts: 
+        - asset: assets/fonts/RobotoRegular.ttf
+          weight: 400
+    - family: Montserrat
+      fonts: 
+        - asset: assets/fonts/MontserratRegular.ttf
+          weight: 400
+    - family: Figtree
+      fonts: 
+        - asset: assets/fonts/FigtreeRegular.ttf
+          weight: 400
+    - family: Rubik
+      fonts: 
+        - asset: assets/fonts/RubikRomanRegular.ttf
+          weight: 400
